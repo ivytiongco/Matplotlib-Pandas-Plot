@@ -16,18 +16,23 @@ Summary Statistics table of mean, median, variance, standard deviation, and SEM 
 ![](screenshots/Summary_stats_-_tumor_vol.png)
 
 Bar plot using Pandas's DataFrame.plot()
+
 ![](screenshots/Bar_plot_Pandas.png)
 
 Bar plot using Matplotlib's pyplot
+
 ![](screenshots/Bar_plot_Pyplot.png)
 
 Pie plot using Pandas's DataFrame.plot()
+
 ![](screenshots/Pie_plot_Pandas.png)
 
 Pie plot using Matplotlib's pyplot
+
 ![](screenshots/Pie_plot_Pyplot.png)
 
 Final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin
+
 ![](screenshots/Final_Tumor_Volume_for_four_regimens.png)
 
 Quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens

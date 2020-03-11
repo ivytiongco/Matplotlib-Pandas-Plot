@@ -4,11 +4,11 @@ You've joined Pymaceuticals Inc., a burgeoning pharmaceutical company based out 
 As a senior data analyst at the company, you've been given access to the complete data from their most recent animal study. In this study, 250 mice identified with SCC tumor growth were treated through a variety of drug regimens. Over the course of 45 days, tumor development was observed and measured. The purpose of this study was to compare the performance of Pymaceuticals' drug of interest, Capomulin, versus the other treatment regimens. You have been tasked by the executive team to generate all of the tables and figures needed for the technical report of the study. The executive team also has asked for a top-level summary of the study results.
 
 # Observations and Insights (also included at the beginning of jupyter notebook)
-• The boxplots I created below show that the Ceftamin drug regimen has the least variability among its final tumor volume data (tumor volume measured on day 45 of the study). However, Capomulin and Ramicane have the lowest final tumor volumes (which is the outcome desired, indicating that tumor has become smaller as a result of the drug treatment) but greater variability. Capomulin and Ramicane had the highest numbers of data points compared to the other drug regimens, which could contribute to the greater variability among their data.
+•My calculations for IQR and the boxplots I created show only one potential outlier for Infubinol and none for the other 3 drug regimens we focused on - Capomulin, Ramicane, and Ceftamin. This indicates that the data is fairly reliable with only one data point to possibly exclude from the analysis.
 
-• The linear regression model for Mouse Weight vs. Average Tumor Volume for Capomulin Regimen shows a strong positive linear relationship, with a correlation coefficient of 0.84. Tumor volume increases as mouse weight increases for the mice in this treatment regimen.
+•The boxplots I created below show that Capomulin and Ramicane have lower final tumor volumes (which is the outcome desired, indicating that tumor has become smaller as a result of the drug treatment) than Infubinol and Ceftamin.
 
-• My calculations for IQR and the boxplots I created show no outliers for any of the 4 drug regimens Capomulin, Ramicane, Infubinol, and Ceftamin. This indicates that the data is reliable and all data points can be considered in the data analysis with no reasons to possibly exclude any.
+•The linear regression model for Mouse Weight vs. Average Tumor Volume for Capomulin Regimen shows a strong positive linear relationship, with a correlation coefficient of 0.84. Tumor volume increases as mouse weight increases for the mice in this treatment regimen.
 
 # Screenshots of required output
 
@@ -33,16 +33,16 @@ Pie plot using Matplotlib's pyplot
 
 Final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin
 
-![](screenshots/Final_Tumor_Volume_for_four_regimens.png)
+![](screenshots/Final_Tumor_Volume_for_four_regimens_NEW.png)
 
 Quartiles and IQR and quantitatively determine if there are any potential outliers across all four treatment regimens
-![](screenshots/IQR_Capomulin.png)
-![](screenshots/IQR_Ramicane.png)
-![](screenshots/IQR_Infubinol.png)
-![](screenshots/IQR_Ceftamin.png)
+![](screenshots/IQR_Capomulin_NEW.png)
+![](screenshots/IQR_Ramicane_NEW.png)
+![](screenshots/IQR_Infubinol_NEW.png)
+![](screenshots/IQR_Ceftamin_NEW.png)
 
 Box and whisker plot of the final tumor volume for all four treatment regimens
-![](screenshots/Boxplots_Final_Tumor_Vol.png)
+![](screenshots/Boxplots_Final_Tumor_Vol_NEW.png)
 
 Line plot of time point versus tumor volume for a single mouse treated with Capomulin
 ![](screenshots/Line_plot_.png)
